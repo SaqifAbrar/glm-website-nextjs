@@ -4,7 +4,9 @@ import Head from "next/head";
 import Layout from "../../common/layouts/layout";
 import Navbar from "../../common/components/navbar";
 import HeroBanner from "../../modules/home/heroBanner";
+import Testimonies from "../../modules/home/testimonies";
 import styles from "../../styles/Home.module.css";
+import Join from "../../modules/home/join";
 
 export default function Home() {
 	return (
@@ -16,6 +18,8 @@ export default function Home() {
 			</Head>
 
 			<HeroBanner />
+			<Testimonies />
+			<Join />
 		</div>
 	);
 }
