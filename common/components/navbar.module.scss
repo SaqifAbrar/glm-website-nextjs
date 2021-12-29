@@ -1,11 +1,11 @@
 .navbarContainer {
 	top: 0;
 	left: 0;
-	position: sticky;
+	position: absolute;
 }
 
 .navbarWrapper {
-	max-height: 10%;
+	max-height: 5%;
 	padding: 0 2.5%;
 	display: flex;
 	flex-direction: row;
@@ -13,7 +13,7 @@
 }
 
 .logo {
-	width: 10%;
+	width: 5%;
 	height: auto;
 }
 

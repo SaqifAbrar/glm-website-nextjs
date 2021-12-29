@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "./layout";
 import Navbar from "../components/navbar";
 
-export function navbar(page) {
+function defaultTemplate(page) {
 	return (
 		<Layout>
 			<Navbar />
@@ -10,3 +10,5 @@ export function navbar(page) {
 		</Layout>
 	);
 }
+
+export { defaultTemplate };

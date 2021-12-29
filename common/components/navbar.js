@@ -7,16 +7,17 @@ export default function navbar() {
 		<div className={styles.navbarContainer}>
 			<div className={styles.navbarWrapper}>
 				<img
-					src='/assets/logo-placeholder-image.png'
+					src='/assets/final_logo_white.png'
 					alt=''
 					className={styles.logo}
 				/>
 				<div className={styles.linksContainer}>
 					<ul>
-						<Link href='/pageA'>Item A</Link>
-						<Link href='/pageB'>Item B</Link>
-						<Link href='/pageC'>Item C</Link>
-						<Link href='/pageD'>Item D</Link>
+						<Link href='/home'>home</Link>
+						<Link href='/about'>about</Link>
+						<Link href='/join'>join us</Link>
+						<Link href='/resources'>resources</Link>
+						<Link href='/contact'>contact</Link>
 					</ul>
 				</div>
 			</div>
