@@ -1,0 +1,31 @@
+.joingContainer {
+	width: 100%;
+}
+
+.joinWrapper {
+	width: inherit;
+	display: flex;
+	flex-direction: row;
+}
+
+.joinImg {
+	width: 50%;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.joinContent {
+	width: 50%;
+	background-color: paleturquoise;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.signContainer {
+	display: flex;
+	flex-direction: row;
+}
