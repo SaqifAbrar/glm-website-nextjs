@@ -1,0 +1,22 @@
+.summaryContainer {
+	h2 {
+		text-align: center;
+	}
+}
+
+.summaryContent {
+	display: flex;
+	flex-direction: row;
+}
+
+.summaryImg {
+	width: 40%;
+	position: relative;
+	margin: 0 5%;
+	flex-shrink: 0;
+	background-color: red;
+}
+
+.summaryInfo {
+	padding-right: 5%;
+}

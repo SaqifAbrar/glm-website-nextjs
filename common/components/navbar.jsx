@@ -15,6 +15,7 @@ export default function navbar() {
 					<ul>
 						<Link href='/home'>home</Link>
 						<Link href='/about'>about</Link>
+						<Link href='/events'>events</Link>
 						<Link href='/resources'>resources</Link>
 						<Link href='/contact'>contact</Link>
 					</ul>
