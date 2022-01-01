@@ -1,6 +1,23 @@
+.impactCardContainer {
+	width: max(27%);
+	background-color: lightgreen;
+	border-radius: 15px;
+}
+
+.impactCardWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	h3 {
+		margin-top: 10%;
+	}
+}
+
 .impactCardImg {
 	img {
-		width: 10px;
+		width: 50%;
 		height: auto;
+		margin: 10%;
 	}
 }
