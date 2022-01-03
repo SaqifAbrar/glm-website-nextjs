@@ -18,12 +18,12 @@ export default function heroBanner() {
 						<img src='/assets/final_logo_white.png' alt='' />
 					</div>
 					<div className={styles.heroText}>
-						<h1>Hero Banner</h1>
+						<h1>A mentorship program for students, by students. </h1>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Voluptates commodi, doloremque libero cupiditate eos eum ipsum
-							dolorum quas quis inventore numquam modi et autem sed fuga quasi
-							odio neque voluptatibus.
+							Green Light Mentorship is Green Light is a mentorship program
+							based in Ontario, Canada, that pairs high school students with a
+							Canadian university student mentor based on their interests,
+							academic course needs and post-secondary program choice.
 						</p>
 					</div>
 				</div>
