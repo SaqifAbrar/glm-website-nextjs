@@ -3,13 +3,14 @@
 $main-header-font: "Montserrat", sans-serif;
 $main-text-font: "Lato", sans-serif;
 
-$dark-text-font: #000000;
-$light-text-font: #ffffff;
-
 $darkest-green: #2e4541;
 $dark-green: #3e5b4f;
 $mid-green: #5d8465;
 $light-green: #9ab291;
+
+$header-text-color: $dark-green;
+$default-text-color: #ffffff;
+$dark-text-color: #000000;
 
 html,
 body {
@@ -26,4 +27,19 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+
+h1 {
+	font-family: $main-header-font;
+	font-weight: $bold;
+}
+
+h2 {
+	font-family: $main-header-font;
+	font-weight: $bold;
+}
+
+p {
+	font-family: $main-text-font;
+	font-weight: $light;
 }

@@ -2,6 +2,7 @@
 	top: 0;
 	left: 0;
 	position: absolute;
+	color: $default-text-color;
 }
 
 .navbarWrapper {
@@ -21,6 +22,8 @@
 	width: 56%;
 	display: flex;
 	align-items: center;
+	font-family: $main-text-font;
+	font-weight: 700;
 
 	ul {
 		width: 100%;
