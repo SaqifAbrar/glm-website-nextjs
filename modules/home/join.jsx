@@ -7,7 +7,7 @@ export default function join() {
 		<div className={styles.joinContainer}>
 			<div className={styles.joinWrapper}>
 				<div className={styles.joinImg}>
-					<img src='/images/join-clipart-img.png' alt='' />
+					<img src='/images/join-clipart-cropped-img.png' alt='' />
 				</div>
 				<div className={styles.joinContent}>
 					<h2>Join Green Light Mentorship Today!</h2>

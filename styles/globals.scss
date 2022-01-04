@@ -23,6 +23,8 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+	font-family: $main-text-font;
+	font-size: $default-text-size;
 }
 
 * {
@@ -32,14 +34,17 @@ a {
 h1 {
 	font-family: $main-header-font;
 	font-weight: $bold;
+	font-size: $default-header-size;
 }
 
 h2 {
 	font-family: $main-header-font;
 	font-weight: $bold;
+	font-size: $default-header-size;
 }
 
 p {
 	font-family: $main-text-font;
 	font-weight: $light;
+	font-size: $default-text-size;
 }

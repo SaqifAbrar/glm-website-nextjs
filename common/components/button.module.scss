@@ -1,0 +1,19 @@
+.btnContainer {
+	width: 100%;
+
+	button {
+		padding: 5% 10%;
+		border: none;
+		background-color: $light-green;
+		color: $default-text-color;
+		font-family: $main-header-font;
+		font-weight: $bold;
+		border-radius: 15px;
+		font-size: 1.3vw;
+	}
+
+	button:hover {
+		background-color: $dark-green;
+		transition: background-color 0.3s ease-in-out;
+	}
+}

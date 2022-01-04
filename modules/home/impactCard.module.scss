@@ -7,10 +7,11 @@
 .impactCardWrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 
-	h3 {
+	p {
 		margin-top: 10%;
+		font-weight: bold;
 	}
 }
 
