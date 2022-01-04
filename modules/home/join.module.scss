@@ -9,7 +9,9 @@
 }
 
 .joinImg {
-	width: 50%;
+	width: 40%;
+	padding: 5%;
+
 	img {
 		width: 100%;
 		height: auto;
@@ -17,16 +19,19 @@
 }
 
 .joinContent {
-	width: 50%;
+	width: 60%;
+	padding: 5%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	color: white;
+	justify-content: space-evenly;
+	color: $header-text-color;
 	text-align: center;
 }
 
 .signContainer {
+	width: 100%;
+	padding: 0 10%;
 	display: flex;
 	flex-direction: row;
 }

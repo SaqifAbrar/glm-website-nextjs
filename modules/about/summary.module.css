@@ -1,0 +1,27 @@
+.summaryContainer h2 {
+  text-align: center;
+}
+
+.summaryContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.summaryImg {
+  width: 40%;
+  position: relative;
+  margin: 0 5%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: red;
+}
+
+.summaryInfo {
+  padding-right: 5%;
+}
+/*# sourceMappingURL=summary.module.css.map */

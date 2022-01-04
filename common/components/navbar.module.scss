@@ -19,11 +19,10 @@
 }
 
 .linksContainer {
-	width: 56%;
+	width: 50%;
 	display: flex;
 	align-items: center;
-	font-family: $main-text-font;
-	font-weight: 700;
+	font-weight: $bold;
 
 	ul {
 		width: 100%;

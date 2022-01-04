@@ -43,4 +43,12 @@
 .heroText {
 	padding: 0 10%;
 	color: $default-text-color;
+
+	h1 {
+		font-size: $default-header-size;
+	}
+
+	p {
+		font-size: $default-text-size;
+	}
 }
