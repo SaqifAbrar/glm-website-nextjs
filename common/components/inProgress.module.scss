@@ -1,0 +1,24 @@
+.progressContainer {
+	width: 100vw;
+	height: 80vh;
+	padding: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.progressImg {
+	img {
+		width: 15vw;
+	}
+}
+
+.progressInfo {
+	padding: 0 5%;
+	text-align: center;
+
+	h1 {
+		color: $darkest-green;
+	}
+}

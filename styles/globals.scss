@@ -31,6 +31,12 @@ h2 {
 	font-size: $default-header-size;
 }
 
+h3 {
+	font-family: $main-header-font;
+	font-weight: $bold;
+	font-size: $smaller-header-size;
+}
+
 p {
 	font-family: $main-text-font;
 	font-weight: $light;
