@@ -1,0 +1,27 @@
+.eventCardWrapper {
+	display: flex;
+	flex-direction: row;
+	color: $dark-grey;
+}
+
+.eventImg {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		width: 60%;
+		height: auto;
+		border: solid;
+		border-width: 5px;
+		border-radius: 15px;
+	}
+}
+
+.eventInfo {
+	width: 60%;
+	padding: 2.5% 5% 2.5% 0;
+	display: flex;
+	flex-direction: column;
+}
