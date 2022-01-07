@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACnB",
-    "sources": [
-        "socialIcons.module.scss"
-    ],
-    "names": [],
-    "file": "socialIcons.module.css"
-}

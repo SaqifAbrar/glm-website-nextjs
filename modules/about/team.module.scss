@@ -1,0 +1,19 @@
+.teamContainer {
+	h2 {
+		text-align: center;
+		color: $dark-green;
+	}
+}
+
+.membersContainer {
+	margin: 0 5%;
+	display: grid;
+	gap: 5%;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+	img {
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+	}
+}
