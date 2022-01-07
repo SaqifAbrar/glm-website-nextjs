@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
 
-$main-header-font: "Montserrat", sans-serif;
-$main-text-font: "Lato", sans-serif;
-
-$darkest-green: #2e4541;
-$dark-green: #3e5b4f;
-$mid-green: #5d8465;
-$light-green: #9ab291;
-
-$header-text-color: $dark-green;
-$default-text-color: #ffffff;
-$dark-text-color: #000000;
-
 html,
 body {
 	padding: 0;
@@ -44,6 +32,12 @@ h2 {
 }
 
 p {
+	font-family: $main-text-font;
+	font-weight: $light;
+	font-size: $default-text-size;
+}
+
+span {
 	font-family: $main-text-font;
 	font-weight: $light;
 	font-size: $default-text-size;
