@@ -1,0 +1,66 @@
+.qaButton {
+}
+
+.reach {
+	$reach-color: $darkest-green;
+
+	background-color: $reach-color;
+	border: none;
+
+	&:hover {
+		color: $reach-color;
+		background-color: white;
+		border: solid;
+		border-width: 3px;
+		border-color: $reach-color;
+		transition: all 0.25s ease-in-out;
+	}
+}
+
+.paired {
+	$paired-color: $dark-green;
+
+	background-color: $paired-color;
+	border: none;
+
+	&:hover {
+		color: $paired-color;
+		background-color: white;
+		border: solid;
+		border-width: 3px;
+		border-color: $paired-color;
+		transition: all 0.25s ease-in-out;
+	}
+}
+
+.approach {
+	$approach-color: $mid-green;
+
+	background-color: $approach-color;
+	border: none;
+
+	&:hover {
+		color: $approach-color;
+		background-color: white;
+		border: solid;
+		border-width: 3px;
+		border-color: $approach-color;
+		transition: all 0.25s ease-in-out;
+	}
+}
+
+.program {
+	$program-color: $light-green;
+
+	background-color: $program-color;
+	border: none;
+
+	&:hover {
+		color: $program-color;
+		background-color: white;
+		border: solid;
+		border-width: 3px;
+		border-color: $program-color;
+		transition: all 0.25s ease-in-out;
+	}
+}

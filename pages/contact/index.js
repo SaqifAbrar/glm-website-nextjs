@@ -1,5 +1,7 @@
 import React from "react";
 import Head from "next/head";
+import Layout from "../../common/layouts/layout";
+import Navbar from "../../common/components/navbar";
 import Faq from "../../modules/contact/faq";
 
 export default function index() {
@@ -14,3 +16,13 @@ export default function index() {
 		</div>
 	);
 }
+
+index.getLayout = function getLayout(page) {
+	return (
+		<Layout>
+			<Navbar />
+			{page}
+			{/*<Footer />*/}
+		</Layout>
+	);
+};
