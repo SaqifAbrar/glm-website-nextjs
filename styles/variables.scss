@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* color variables */
 $darkest-green: #2e4541;
 $dark-green: #3e5b4f;
 $mid-green: #5d8465;
@@ -7,6 +8,7 @@ $light-green: #9ab291;
 $dark-grey: #3d3d3d;
 $light-grey: #d5d8cc;
 
+/* font variables */
 $main-header-font: "Montserrat", sans-serif;
 $main-text-font: "Lato", sans-serif;
 
@@ -22,4 +24,31 @@ $default-header-size: 2.5vw;
 $smaller-header-size: 2vw;
 $default-text-size: 1.6vw;
 
+/* breakpoint items */
+$breakpoints: (
+	"mobile": 680px,
+	"tablet": 768px,
+	"desktop": 2000px,
+);
+
+@mixin mobile {
+	@media screen and (min-width: map-get($breakpoints, "mobile")) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media screen and (min-width: (map-get($breakpoints, "mobile") + 1)) and (max-width: map-get($breakpoints, "tablet")) {
+		@content;
+	}
+}
+
+/* custom breakpoint with default initial value of 0 */
+@mixin breakpoint($bp: 0) {
+	@media screen and (min-width: $bp) {
+		@content;
+	}
+}
+
+/* other variables */
 $start-margin: 7vw;
