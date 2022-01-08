@@ -9,15 +9,15 @@ export default function impacts() {
 				<h2>Our Impacts</h2>
 				<div className={styles.cardsContainer}>
 					<ImpactCard
-						label={"Impact Text"}
+						label={"Matched 500+ mentors & mentees"}
 						imgpath={"/images/card-portrait-placeholder.png"}
 					/>
 					<ImpactCard
-						label={"Impact Text"}
+						label={"500+ attendees with 50+ speakers"}
 						imgpath={"/images/card-portrait-placeholder.png"}
 					/>
 					<ImpactCard
-						label={"Impact Text"}
+						label={"1300+ members & counting"}
 						imgpath={"/images/card-portrait-placeholder.png"}
 					/>
 				</div>
