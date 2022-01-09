@@ -1,7 +1,14 @@
+.socialsContainer {
+	width: 100vw;
+	padding: 3% 10%;
+}
+
 .socialsWrapper {
 	text-align: center;
 
 	h2 {
 		color: $header-text-color;
+		margin-top: 0%;
+		margin-bottom: 3%;
 	}
 }
