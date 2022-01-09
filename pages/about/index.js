@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Layout from "../../common/layouts/layout";
 import Navbar from "../../common/components/navbar";
+import Footer from "../../common/components/footer";
 import Summary from "../../modules/about/summary";
 import Featured from "../../modules/about/featured";
 import Team from "../../modules/about/team";
@@ -26,7 +27,7 @@ index.getLayout = function getLayout(page) {
 		<Layout>
 			<Navbar />
 			{page}
-			{/*<Footer />*/}
+			<Footer />
 		</Layout>
 	);
 };

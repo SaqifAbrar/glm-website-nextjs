@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./socialIcons.module.scss";
 
-export default function socialIcons() {
+export default function socialIcons(mainColor, justifyContent) {
 	return (
 		<div className={styles.iconsContainer}>
 			<div className={styles.iconsWrapper}>

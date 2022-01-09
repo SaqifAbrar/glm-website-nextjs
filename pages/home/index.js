@@ -3,12 +3,12 @@ import Head from "next/head";
 //import { defaultTemplate } from "../../common/layouts/templates";
 import Layout from "../../common/layouts/layout";
 import Navbar from "../../common/components/navbar";
+import Footer from "../../common/components/footer";
 import HeroBanner from "../../modules/home/heroBanner";
 import Testimonies from "../../modules/home/testimonies";
 import Join from "../../modules/home/join";
 import Impacts from "../../modules/home/impacts";
 import Socials from "../../modules/home/socials";
-
 import styles from "../../styles/Home.module.css";
 
 export default function Home() {
@@ -34,7 +34,7 @@ Home.getLayout = function getLayout(page) {
 		<Layout>
 			<Navbar />
 			{page}
-			{/*<Footer />*/}
+			<Footer />
 		</Layout>
 	);
 };
