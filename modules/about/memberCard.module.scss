@@ -1,7 +1,11 @@
 .memberContainer {
 	width: 100%;
+}
+
+.memberImg {
 	img {
-		width: inherit;
+		object-fit: cover;
+		aspect-ratio: 1/1;
 	}
 }
 
