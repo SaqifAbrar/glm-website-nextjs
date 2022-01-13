@@ -1,0 +1,189 @@
+[
+	{
+		"id": "1",
+		"order": "",
+		"name": "Sachi Chan",
+		"position": "Admin - Head of Promo & First Year Reps",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hey I'm Sachi (like versace) and I am one of the co-founders and admins at Green Light Mentorship! I'll be working specifically with the promotions team and first year representatives this year! I'm excited to work with these teams to bring exciting new social media campaigns + resources for high school students! Outside of Green Light you can probably find me taking photos on my walks or watching anime :) ",
+		"image": "SachiChan.jpg"
+	},
+	{
+		"id": "2",
+		"order": "",
+		"name": "Rowan Ives",
+		"position": "Admin- Head of Internal & Financial",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hi everyone! My name is Rowan and I'm one of Green Light's three cofounders and admins! This year I'm working with the internal team to bring you brand new resources and facilitate our mentorship program! I'm also working with the Green Light financial team this year! We hope you enjoy our brand new website, and feel free to contact me if you ever have any questions about Green Light!",
+		"image": "RowanIves.jpeg"
+	},
+	{
+		"id": "3",
+		"order": "",
+		"name": "Hayley Ma",
+		"position": "Admin- Head of Events, Marketing & Web",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hi everyone, I'm Hayley and I am one of the co-founders and admins of Green Light! I am currently in my third year of Health Sciences at McMaster in the Child Health specialization. I am working alongside the events, marketing and web coordinators this year to host some amazing events (including our Virtual Ontario University Fair) and launch our brand new site! If you ever have any questions or concerns, please do not hesitate to reach out! My inbox is always open :) ",
+		"image": "HayleyMa.jpeg"
+	},
+	{
+		"id": "4",
+		"order": "",
+		"name": "Mira Ishak",
+		"position": "Events Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Biochemistry",
+		"introduction": "Hi guys! My name is Mira and I'm in my third year of biochemistry at McMaster. This is my second year of being one of the events coordinators for Green light Mentorship and I'm super excited to create workshops for high school students transitioning to university this year! ",
+		"image": "MiraIshak.jpeg"
+	},
+	{
+		"id": "5",
+		"order": "",
+		"name": "Nirmay Shah",
+		"position": "Events Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hi everyone! I'm Nirmay, one of two Events Coordinators at Green Light Mentorship. This year I am working on planning monthly events including Virtual OUF and speaker series! If you have any questions or concerns, please feel free to reach out!",
+		"image": "NirmayShah.jpg"
+	},
+	{
+		"id": "6",
+		"order": "",
+		"name": "Olsen Chan",
+		"position": "Internal Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hi everyone! My name is Olsen and I am one of the internal coordinators at Green Light! Some of my responsibilities include making mentor-mentee matches, writing the newsletter, and compiling resources for students! If you have any questions, please feel free to reach out and I will be more than happy to talk :)",
+		"image": "OlsenChan.jpg"
+	},
+	{
+		"id": "7",
+		"order": "",
+		"name": "Kayla Leslie",
+		"position": "Internal Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Nursing",
+		"introduction": "Hey hey everyone!! I'm Kayla and I am one of your internal coordinators! My job is to make sure all of our mentors and mentees are matched up as best as possible to make some amazing connections:) I also work with the team to create a monthly newsletter and make sure we have resources available for all of you through each step of your process! I would love to answer any green light, mac or nursing questions so please don't hesitate to reach out!!",
+		"image": "KaylaLeslie.jpeg"
+	},
+	{
+		"id": "8",
+		"order": "",
+		"name": "Nicholas Lum",
+		"position": "Internal Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Health Sciences",
+		"introduction": "Hi! My name is Nicholas and I'm excited to start a new year with Green Light! Last year I worked with the outreach team but this year I've transitioned into working with the internal coordinators. I'm looking forward to the upcoming OUF and what this year brings! Feel free to reach out if you have any questions :)",
+		"image": "NicholasLum.jpeg"
+	},
+	{
+		"id": "9",
+		"order": "",
+		"name": "Mathias Wang",
+		"position": "Marketing Coordinator",
+		"university": "McMaster University",
+		"year": "3",
+		"program": "Biochemistry",
+		"introduction": "Hi! I'm Mathias and I am the Marketing Coordinator for Green Light Mentorship this year! I mainly work on the YouTube channel and the promotions for events. I am so excited to continue growing our YouTube channel and making it a resource for you to access! I am also in my third year of Honours Biochemistry at McMaster University! If you have any questions about Green Light Mentorship or my program/university, feel free to reach out (ig: mathiaswang_)!",
+		"image": "MathiasWang.jpg"
+	},
+	{
+		"id": "10",
+		"order": "",
+		"name": "Emily Ying",
+		"position": "Promotions Coordinator",
+		"university": "Western University",
+		"year": "3",
+		"program": "Honor Specialization Microbiology and Immunology",
+		"introduction": "Hi everyone! My name is Emily and I'm one of the promotion coordinators of Green Light Mentorship. I work with the team to create all kinds of promotional materials and events such as Spotlight and Hot Topics! We also managed the social media platforms including LinkedIn, Instagram, Facebook and Discord. We post a lot of updates, so stay tuned for all the awesome posts!",
+		"image": "EmilyYing.jpeg"
+	},
+	{
+		"id": "11",
+		"order": "",
+		"name": "Jessica Anne Leon",
+		"position": "Promotions Coordinator",
+		"university": "Ryerson (X) University",
+		"year": "1",
+		"program": "Nursing",
+		"introduction": "Hey everyone! My name is Jessica and I'm so excited to support this remarkable team as a promotions coordinator this year. You can always catch me watching Netflix, vibing to music or wasting money on bubble tea :) I look forward to informing and connecting with you all through our Green Light Mentorship social platforms.",
+		"image": "JessicaAnne.jpg"
+	},
+	{
+		"id": "12",
+		"order": "",
+		"name": "Michelle Lam",
+		"position": "Promotions Coordinator",
+		"university": "University of British Columbia",
+		"year": "1",
+		"program": "Bachelor of Science",
+		"introduction": "Hi everyone! I'm Michelle and I am one of the promotion coordinators of Green light Mentorship. This year I am working on video promotions, hot topics and spotlight videos on social media. Fun fact about me is that I have a foodie instagram (@michocolll) and a youtube channel (Michoco Lam). Feel free to follow and subscribe! I am also the only executive in the west coast of Canada so feel free to message me if you have any questions regarding UBC. ",
+		"image": "MichelleLam.jpg"
+	},
+	{
+		"id": "13",
+		"order": "",
+		"name": "Emily Liu",
+		"position": "First year Representative ",
+		"university": "Western University",
+		"year": "1",
+		"program": "Bachelor of Management and Organizational Studies",
+		"introduction": "Hi everyone! I'm Emily and I'm a first year representative for Green Light Mentorship! I'm going to be working on helping everyone succeed in their transition to university by working with the high school ambassadors, providing insight into the needs of students and planning mentor/mentee events. So excited to be on the team this year! Definitely message me if you want to talk, I'm always down :))",
+		"image": "EmilyLiu.jpg"
+	},
+	{
+		"id": "14",
+		"order": "",
+		"name": "Ginny Wang",
+		"position": "First year Representative ",
+		"university": "University of Waterloo",
+		"year": "1",
+		"program": "Engineering",
+		"introduction": "Hi everyone! I'm Ginny and I'll be one of the First Year Representatives for Green Light Mentorship this year. We're hoping to continue recruiting and managing the new team of High School Ambassadors, work on the Ontario University Discord, and help with other events Green Light will be running! Feel free to reach out to chat or ask any questions :) ",
+		"image": "GinnyWang.jpg"
+	},
+	{
+		"id": "15",
+		"order": "",
+		"name": "Lisa Liu",
+		"position": "Financial Coordinator ",
+		"university": "University of Toronto",
+		"year": "3",
+		"program": "Rotman Commerce",
+		"introduction": "Hey everybody, my name is Lisa and I am the financial coordinator for Green Light Mentorship! I'm currently working with the financial team to begin incorporating Green Light as a non-profit organization. I'm also excited to be a mentor again this year! ",
+		"image": "LisaLiu.png"
+	},
+	{
+		"id": "16",
+		"order": "",
+		"name": "Saqif Abrar",
+		"position": "Web Developer",
+		"university": "University of Guelph",
+		"year": "3",
+		"program": "Software Engineering",
+		"introduction": "",
+		"image": "SaqifAbrar.jpg"
+	},
+	{
+		"id": "17",
+		"order": "",
+		"name": "Victor Zhang",
+		"position": "Web Developer",
+		"university": "Western University",
+		"year": "3",
+		"program": "",
+		"introduction": "",
+		"image": ""
+	}
+]

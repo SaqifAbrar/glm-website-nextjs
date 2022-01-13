@@ -1,6 +1,6 @@
 import React from "react";
 import EventCard from "./eventCard";
-import Events from "./events.json";
+import Events from "../../public/assets/content/events.json";
 import styles from "./eventSection.module.scss";
 
 export default function eventSection() {
