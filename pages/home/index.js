@@ -8,8 +8,9 @@ import Testimonies from "../../modules/home/testimonies";
 import Join from "../../modules/home/join";
 import Impacts from "../../modules/home/impacts";
 import Socials from "../../modules/home/socials";
-
 import styles from "../../styles/Home.module.css";
+import MobileNav from "../../common/components/mobileNav";
+import Burger from "../../common/components/burger";
 
 export default function Home() {
 	return (
@@ -25,6 +26,8 @@ export default function Home() {
 			<Join />
 			<Impacts />
 			<Socials />
+			<MobileNav />
+			<Burger />
 		</div>
 	);
 }
