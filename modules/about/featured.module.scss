@@ -22,3 +22,13 @@
 	flex-shrink: 0;
 	background-color: red;
 }
+
+@media screen and (max-width:414px) {
+	.featuredIcon {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:360px) {
+
+}

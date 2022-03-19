@@ -6,10 +6,16 @@
 	}
 }
 
+@media screen and (max-width:414px) {
+	.socialsWrapper {
+		padding:20px;
+		h2 {
+			font-size: $smaller-mobile-header-size;
+		}
+	}
+}
+
 @media screen and (max-width:360px) {
 
 }
 
-@media screen and (max-width:414px) {
-
-}

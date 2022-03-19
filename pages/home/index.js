@@ -12,6 +12,7 @@ import styles from "../../styles/Home.module.css";
 import MobileNav from "../../common/components/mobileNav";
 import MobNavLogo from "../../common/components/mobNavlogo";
 import { useState } from 'react'
+import MobileFooter from "../../common/components/mobileFooter";
 
 export default function Home() {
 
@@ -31,6 +32,7 @@ export default function Home() {
 			<Join />
 			<Impacts />
 			<Socials />
+			<MobileFooter />
 		</div>
 	);
 }

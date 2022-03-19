@@ -23,11 +23,18 @@
 	}
 }
 
+@media screen and (max-width:414px) {
+	.impactCardContainer {
+		margin-bottom: 20px;
+		width: max(60%);
 
-@media screen and (max-width:360px) {
+		p {
+			font-size: $default-mobile-text-size;
+		}
+	}
 
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:360px) {
 
 }

@@ -1,4 +1,32 @@
 .iconsWrapper {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	a {
+		height:100px;
+		border-radius: 50%;
+
+		img {
+			height:100%;
+			filter: invert(48%) sepia(7%) saturate(1420%) hue-rotate(80deg) brightness(97%) contrast(94%);
+			border-radius: 50%;
+		}
+	}
+	
+}
+
+@media screen and (max-width:414px) {
+	.iconsWrapper {
+		a {
+			height:60px;
+			padding-left: 5px;
+			padding-right:5px;
+		}
+	}
+}
+
+@media screen and (max-width:360px) {
+
 }
