@@ -11,3 +11,22 @@
 		margin-top: 0.5vw;
 	}
 }
+
+@media screen and (max-width:414px) {
+	.headerContainer {
+		margin-top:80px;
+		 
+		h2 {
+			font-size:$default-mobile-header-size;
+		}
+
+		p {
+			font-size: $default-mobile-text-size;
+			padding:10px;
+		}
+	}
+  }
+
+  @media screen and (max-width:360px) {
+
+  }

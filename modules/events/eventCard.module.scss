@@ -25,3 +25,47 @@
 	display: flex;
 	flex-direction: column;
 }
+
+@media screen and (max-width:414px) {
+	.eventCardWrapper {
+		flex-direction: column;
+		width:100%;
+	}
+	
+	.eventImg {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top:50px;
+	
+		img {
+			width: 60%;
+			height: auto;
+			border: solid;
+			border-width: 2vw;
+			border-radius: 15px;
+		}
+	}
+	
+	.eventInfo {
+		display: inline-block;
+		padding:30px;
+		width:100%;
+		
+		h3 {
+			font-size:$smaller-mobile-header-size;
+			width:100%;
+		}
+
+		p {
+			font-size: $default-mobile-text-size;
+		}
+
+		
+	}
+}
+
+@media screen and (max-width:360px) {
+
+}

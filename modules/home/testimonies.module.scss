@@ -2,3 +2,35 @@
 	height: 150px;
 	background-color: $light-green;
 }
+
+
+@media screen and (max-width:414px) {
+	.testimoniesContainer {
+		height: 400px;
+	
+		.photoWrapper {
+			border-radius: 50%;
+			background-color: gray;
+			width:200px;
+			height:200px;
+			margin-top:40px;
+			margin-left: auto;
+			margin-right:auto;
+
+			.img {
+				border-radius: 50%;
+			}
+		}
+
+		.photoText {
+			margin-top:20px;
+			text-align: center;
+			margin-left: auto;
+			margin-right:auto;
+		}
+	}
+}
+
+@media screen and (max-width:360px) {
+
+}

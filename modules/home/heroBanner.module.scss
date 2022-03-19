@@ -54,3 +54,45 @@
 }
 
 /* MOBILE */
+@media screen and (max-width:414px) {
+	.heroWrapper {
+		height:100vh;
+		
+		.contentContainer {
+			height:100vh;
+		}
+		
+		.backgroundContainer {
+			height: 100vh;
+			img {
+				height: 100vh;
+				width:auto;
+
+			}
+			overflow: hidden;
+		}
+	
+	}
+
+	.heroText {
+		h1 {
+			font-size:$default-mobile-header-size;
+		}
+		p {
+			font-size: $default-mobile-text-size;
+		}
+		
+	}
+
+	.heroImg {
+		img {
+			height:20vh;
+			width:auto;
+		}
+	}
+
+  }
+
+@media screen and (max-width:360px) {
+
+  }

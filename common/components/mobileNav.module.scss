@@ -1,7 +1,9 @@
 .burger {
     position: absolute;
-    top: 5%;
-    right:5%;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    margin-right:15px;
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -32,6 +34,8 @@
       align-items: center;
       flex-direction: row;
       transition-duration: 250ms;
+      display: none;
+      top:0;
 
       a {
         font-size: 20px;
@@ -51,16 +55,28 @@
         transform: translate(-50%,-50%);
       }
   }
-  
 
-  @media screen and (max-width:360px) {
-    .mobileNav {
-        display: flex;
-    }
-    .burger {
-      display: flex;
-    }
+  .mobNavLogo {
+    position: fixed;
+    top: 0;
+    background-color: #3E5B4F;
+    color:white;
+    width:100%;
+    display:none;
+    height:60px;
+      .navLogoText {
+        a {
+          font-size: 20px;
+          font-family: $main-header-font;
+          font-weight:$bold;
+        } 
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        margin-left:15px;
+      }
   }
+
 
   @media screen and (max-width:414px) {
     .mobileNav {
@@ -70,5 +86,11 @@
     .burger {
       display: flex;
     }
+    .mobNavLogo {
+      display: flex;
+    }
   }
 
+  @media screen and (max-width:360px) {
+
+  }

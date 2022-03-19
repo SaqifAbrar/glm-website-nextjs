@@ -35,3 +35,17 @@
 	display: flex;
 	flex-direction: row;
 }
+
+
+@media screen and (max-width:414px) {
+	.joingContainer {
+	 	display: none;
+ 	}
+	.joinWrapper {
+		display:none;
+	}
+}
+
+@media screen and (max-width:360px) {
+
+}
