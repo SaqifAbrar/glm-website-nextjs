@@ -11,8 +11,12 @@ import Socials from "../../modules/home/socials";
 import styles from "../../styles/Home.module.css";
 import MobileNav from "../../common/components/mobileNav";
 import Burger from "../../common/components/burger";
+import {useState} from 'react'
 
 export default function Home() {
+	
+	const [open, setOpen] = useState(false);
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -26,8 +30,8 @@ export default function Home() {
 			<Join />
 			<Impacts />
 			<Socials />
-			<MobileNav />
-			<Burger />
+			<Burger open={open} setOpen={setOpen} />
+			<MobileNav open={open} setOpen={setOpen} />
 		</div>
 	);
 }

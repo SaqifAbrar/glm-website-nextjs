@@ -1,12 +1,12 @@
 .burger {
     position: absolute;
     top: 5%;
-    left: 2rem;
-    display: flex;
+    right:5%;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     width: 2rem;
-    height: 2rem;
+    height: 1.5rem;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -15,9 +15,9 @@
 }
 
 .line {
-    width: 2rem;
-    height: 0.25rem;
-    background: white;
+    width: 1.5rem;
+    height: 0.2rem;
+    background: black;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
@@ -29,7 +29,46 @@
       height:100%;
       width:100%;
       background-color: white;
-      display: flex;
       align-items: center;
       flex-direction: row;
+      transition-duration: 250ms;
+
+      a {
+        font-size: 20px;
+        margin: 20px;
+      }
+
+      ul {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+      }
   }
+  
+
+  @media screen and (max-width:360px) {
+    .mobileNav {
+        display: flex;
+    }
+    .burger {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width:414px) {
+    .mobileNav {
+        display: flex;
+        
+    }
+    .burger {
+      display: flex;
+    }
+  }
+
